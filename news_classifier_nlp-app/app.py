@@ -1,5 +1,6 @@
 import streamlit as st 
-import joblib,os
+import joblib
+import os
 import spacy
 import pandas as pd
 nlp = spacy.load('en')
